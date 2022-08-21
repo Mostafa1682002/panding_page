@@ -1,8 +1,6 @@
 let curentImg=document.querySelector(".imgs img");
 let body=document.querySelector("body");
 
-window.localStorage.imgeSrc=`img/product-3.png`;
-window.localStorage.color=`#000`;
 
 
 curentImg.src= window.localStorage.getItem("imgeSrc");
